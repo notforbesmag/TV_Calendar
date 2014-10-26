@@ -19,7 +19,7 @@ $("#submit").click(function() {
         $("#answer").text("I don't know. Probably Netflix.");
     } else if (weekday === "tuesday") {
         $("#answer").text("The Mindy Project! Nothing gets between me and Mindy.")
-        $("body").css("background", "url('https://38.media.tumblr.com/49c3719f73f659cceb2c284080089995/tumblr_ndwzp6ISlL1s9362xo1_500.gif') cover");
+        $("body").css("background-image", "url('https://38.media.tumblr.com/49c3719f73f659cceb2c284080089995/tumblr_ndwzp6ISlL1s9362xo1_500.gif')");
     } else if (weekday === "wednesday") {
         $("#answer").text("Catching up on all the shows I missed. Yay Hulu!");
     } else if (weekday === "thursday") {
