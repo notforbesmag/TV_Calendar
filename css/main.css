@@ -54,3 +54,6 @@ input {
 img {
     margin-top: 40px;
 }
+a {
+    color: rgba(255,255,255,1);
+}

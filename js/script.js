@@ -14,19 +14,19 @@ $("#submit").click(function() {
     weekday = weekday.toLowerCase();
 
     if (weekday === "sunday") {
-        $("#answer").text("Once Upon A Time. So camp yet engaging.");
+        $("#answer").html('<a href="http://www.hulu.com/once-upon-a-time">Once Upon A Time</a>. So camp yet engaging.');
     } else if (weekday === "monday") {
-        $("#answer").text("I don't know. Probably Netflix.");
+        $("#answer").html('No idea. Probably <a href="http://www.netflix.com>"Netflix</a>.');
     } else if (weekday === "tuesday") {
-        $("#answer").html('<a href="http://www.hulu.com/the-mindy-project">The Mindy Project!</a> Nothing gets between me and Mindy.').append('<img src="https://38.media.tumblr.com/49c3719f73f659cceb2c284080089995/tumblr_ndwzp6ISlL1s9362xo1_500.gif" />');
+        $("#answer").html('<a href="http://www.hulu.com/the-mindy-project">The Mindy Project</a>! Nothing gets between me and Mindy.').append('<img src="https://38.media.tumblr.com/49c3719f73f659cceb2c284080089995/tumblr_ndwzp6ISlL1s9362xo1_500.gif" />');
     } else if (weekday === "wednesday") {
-        $("#answer").text("Catching up on all the shows I missed. Yay Hulu!");
+        $("#answer").html('Catching up on all the shows I missed. Yay <a href="http://www.hulu.com/">Hulu</a>!');
     } else if (weekday === "thursday") {
-        $("#answer").text("How to Get Away with Murder! Shonda Rimes is everything!");
+        $("#answer").html('<a href="http://www.hulu.com/how-to-get-away-with-murder">How to Get Away with Murder</a>! Shonda Rimes is everything!');
     } else if (weekday === "friday") {
-        $("#answer").text("GRIMM is back... I miss Portland.");
+        $("#answer").html('<a href="http://www.hulu.com/grimm">Grimm</a> is back... I miss Portland.');
     } else if (weekday === "saturday") {
-        $("#answer").text("Youtube! Cats and Drake music videos only.");
+        $("#answer").html('<a href="http://www.youtube.com/>"Youtube</a>! Cat videos only.'');
     } else { 
         $("#answer").text("Hmm... Do you need to look at a calendar?");
     }
